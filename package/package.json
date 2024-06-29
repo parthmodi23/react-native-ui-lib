@@ -18,7 +18,8 @@
     "reactnative",
     "ui",
     "checkbox",
-    "RadioButton"
+    "RadioButton",
+    "react"
   ],
   "author": "parthmodi",
   "license": "MIT",

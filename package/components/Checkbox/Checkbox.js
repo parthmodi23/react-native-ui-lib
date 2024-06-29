@@ -11,7 +11,7 @@ const Checkbox = ({ label, value, onValueChange }) => {
     </TouchableOpacity>
   );
 };
-//for
+//for new
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
