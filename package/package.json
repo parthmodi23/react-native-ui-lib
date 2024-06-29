@@ -1,5 +1,5 @@
 {
-  "name": "@rnui/react-native-ui-lib",
+  "name": "@rnuilib/react-native-ui-lib",
   "version": "1.0.0",
   "description": "React native ui library",
   "main": "index.js",
