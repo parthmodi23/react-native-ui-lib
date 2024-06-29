@@ -17,7 +17,8 @@
   "keywords": [
     "reactnative",
     "ui",
-    "checkbox"
+    "checkbox",
+    "RadioButton"
   ],
   "author": "parthmodi",
   "license": "MIT",
