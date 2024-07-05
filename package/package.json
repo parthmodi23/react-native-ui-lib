@@ -1,6 +1,6 @@
 {
   "name": "react-native-newui-lib",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A React Native UI library",
   "main": "index.js",
   "scripts": {
