@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yourusername/react-native-newui-lib.git"
+    "url": "git+https://github.com/parthmodi23/react-native-ui-lib.git.git"
   },
   "keywords": [
     "react-native",
@@ -19,9 +19,9 @@
   "author": "Your Name",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/yourusername/react-native-newui-lib/issues"
+    "url": "https://github.com/parthmodi23/react-native-ui-lib.git/issues"
   },
-  "homepage": "https://github.com/yourusername/react-native-newui-lib#readme",
+  "homepage": "https://github.com/parthmodi23/react-native-ui-lib.git#readme",
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0",
     "react-native": "^0.64.0 || ^0.70.0"

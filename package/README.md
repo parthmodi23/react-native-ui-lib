@@ -8,6 +8,7 @@ You can install this package via npm. Make sure you have `react` and `react-nati
 
 ```sh
 npm install react-native-newui-lib;
+
 ```
 
 ## Checkbox
