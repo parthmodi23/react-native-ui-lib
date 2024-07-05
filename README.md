@@ -66,11 +66,17 @@ export default App;
     * `label` (string): Label text for the checkbox.
     * `value`(boolean): Current state of the checkbox (true for checked, false for unchecked).
     * `onValueChange` (function): Callback function to handle state change of the checkbox.
+    * `containerStyle` (object, optional): Custom styles for the container TouchableOpacity.
+    * `checkboxStyle` (object, optional): Custom styles for the checkbox View.
+    * `labelStyle` (object, optional): Custom styles for the label Text.
 
 #### RadioButton Component Props
     * `label` (string): Label text for the radio button.
     * `selected` (boolean): Whether the radio button is selected.
     * `onValueChange` (function): Callback function invoked when radio button selection changes.
+    * `containerStyle` (object, optional): Custom styles for the container TouchableOpacity.
+    * `checkboxStyle` (object, optional): Custom styles for the radio button View.
+    * `labelStyle` (object, optional): Custom styles for the label Text.
 
 ## License
 
