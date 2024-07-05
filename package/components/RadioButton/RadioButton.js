@@ -1,23 +1,26 @@
 import React from 'react';
 import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
 
-const RadioButton = ({ label, selected, onValueChange }) => {
+const RadioButton = ({ label, selected, onValueChange, containerStyle, radioStyle, labelStyle }) => {
   return (
-    <TouchableOpacity style={styles.container} onPress={() => onValueChange(!selected)}>
-      <View style={[styles.radio, selected && styles.selected]}>
+    <TouchableOpacity
+      style={[styles.container, containerStyle]}
+      onPress={() => onValueChange(!selected)}
+      activeOpacity={0.8}
+    >
+      <View style={[styles.radio, radioStyle, selected && styles.selected]}>
         {selected && <View style={styles.innerCircle} />}
       </View>
-      <Text style={styles.label}>{label}</Text>
+      <Text style={[styles.label, labelStyle]}>{label}</Text>
     </TouchableOpacity>
   );
 };
-//for new
 
 const styles = StyleSheet.create({
   container: {
     flexDirection: 'row',
     alignItems: 'center',
-    margin: 10,
+    marginVertical: 10,
   },
   radio: {
     width: 20,
@@ -40,6 +43,7 @@ const styles = StyleSheet.create({
   },
   label: {
     fontSize: 16,
+    color: '#000',
   },
 });
 
