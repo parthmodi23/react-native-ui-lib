@@ -1,6 +1,6 @@
 {
   "name": "react-native-newui-lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A React Native UI library",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,9 @@
   "keywords": [
     "react-native",
     "ui",
-    "components"
+    "components",
+    "Check-box",
+    "Radiobutton"
   ],
   "author": "Your Name",
   "license": "MIT",
